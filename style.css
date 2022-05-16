@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.home{
+    background: linear-gradient(#000000a2,#000000a2), url('background.jpg') no-repeat center center/cover;
+    box-shadow: inset 120px 100px 250px black;
+    width: 100%;
+    height: 96vh;
+    position: relative;
+}
+.box{
+    padding-left: 70px;
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 370px;
+    height: 450px;
+    margin-top: 7%;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+.login{
+    padding-top: 3%;
+    padding-right: 10%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+.emil{
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(46, 46, 46, 0.801);
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    border: 24px;
+    border-radius: 2px;
+    margin-bottom: 10%;
+}
+.password{
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(46, 46, 46, 0.801);
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    border: 24px;
+    border-radius: 2px;
+    margin-bottom: 10%;
+}
+.submit{
+    width: 300px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: #d40303;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    border: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: red;
+}
+.signUp{
+    color: rgb(248, 73, 73);
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+}
+.signUp a{
+    color: rgba(255, 255, 255, 0.548);
+}
+.protected{
+    padding-top: 15%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.548);
+}
